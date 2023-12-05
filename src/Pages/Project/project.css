@@ -1,0 +1,15 @@
+.users_wrapper{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 840px) {
+    .users_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .users_wrapper{
+        grid-template-columns: auto;
+    }
+}

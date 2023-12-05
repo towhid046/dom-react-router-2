@@ -1,0 +1,10 @@
+.posts_wrapper{
+    grid-template-columns:repeat(2, 1fr);
+}
+@media (max-width: 840px) {
+    .posts_wrapper{
+        grid-template-columns:auto;
+    }
+}
+
+
